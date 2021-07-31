@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+ <!-- start form -->
+    <form>
+        <fieldset>
+            <legend>Personalia:</legend>
+        <label for="f_name"> first name:</label>
+<input type="text" name="first_name" id="f_name" placeholder="enter your name" required > <br>
+<label for="l_name">last name: </label>
+<input type="text" name="last_name" id="l_name" placeholder="enter your last name"  required><br>
+
+<label  for="email"> Email: </label>
+<input type="email" name="email" id="email" placeholder="enter your email" required><br>
+<label for="birthday"> Birthday :</label> 
+<input type="date" id="birthday" name="birthday" required > 
+<p> gender: </p>
+<input type="radio" name="gender" id="female" required >
+<label for="female"> female  </label><br>
+
+<input type="radio" name="gender" id="male"  required>
+<label for="male"> male  </label>
+<p> hoppeies</p>
+<input type="checkbox" id="play" name="play" > 
+<label for="play"> playing an instrunmant</label><br>
+
+
+<input type="checkbox" id="play" name="play">
+<label for="play">reading</label><br>
+
+<input type="checkbox" id="play" name="play" >
+<label for="play"> watching tv</label><br>
+
+<label for="lang"> choose your fav_language :  </label>
+
+<select name="language" id="lang" >
+    <optgroup label="not programming language">
+        <option value="html ">html</option>
+        </optgroup>
+        <optgroup label="group2">
+<option value="java ">java</option>
+<option value="html ">html</option>
+</optgroup>
+
+</select>
+
+<br>
+<input type="submit">
+</fieldset>
+</form>
+</body>
+</html>
